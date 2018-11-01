@@ -20,6 +20,11 @@ body{
     grid-template-columns: repeat(20,1fr);
 }
 
+.tree-topper{
+	grid-row:1;
+	grid-column:9/13;
+}
+
 .tree-layer{
     position: relative;
     background-color:green;
