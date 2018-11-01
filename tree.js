@@ -70,4 +70,7 @@
 });
 */
 
-window.setTimeout(function () { window.location.reload(); }, 30000);
+window.setTimeout(function () {
+  if (!develop) return;
+  window.location.reload();
+}, 30000);
