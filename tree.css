@@ -65,11 +65,8 @@ body{
 
 .tree-stump{
     background-color:brown;
-<<<<<<< HEAD
     margin-left:auto;
     margin-right:auto;
-=======
->>>>>>> b79cfb675a90dadb76b679da9447fa9642311787
     width:70%;
     height:100%;
     grid-row: 18/21;
