@@ -21,8 +21,12 @@ body{
 }
 
 .tree-topper{
-	grid-row:1;
-	grid-column:9/13;
+	grid-row: 1;
+    grid-column: 9/13;
+    position: relative;
+    top: 105px;
+    z-index: 3;
+    left: 63px;
 }
 
 .tree-layer{
