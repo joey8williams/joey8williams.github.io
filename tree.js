@@ -1,4 +1,4 @@
-particlesJS("particles-js", {
+/*particlesJS("particles-js", {
   "particles": {
     "number": {
       "value": 40,
@@ -68,5 +68,6 @@ particlesJS("particles-js", {
     }
   }
 });
+*/
 
 window.setTimeout(function () { window.location.refresh(); }, 30000);
