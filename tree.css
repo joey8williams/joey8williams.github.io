@@ -3,6 +3,7 @@ body{
     height:100vh;
     overflow:hidden;
     margin: 0px;
+background-image: url("./chrimbackground.jpg");
 }
 .flex-wrapper{
     display:flex;
@@ -14,7 +15,6 @@ body{
 .tree-box{
     height:90%;
     width:100vw;
-    background-color:blue;
     display:grid;
     grid-template-rows: repeat(20,1fr);
     grid-template-columns: repeat(20,1fr);
