@@ -70,7 +70,8 @@
 });
 */
 
+window.develop = false;
 window.setTimeout(function () {
-  if (!develop) return;
+  if (!window.develop) return;
   window.location.reload();
 }, 30000);
