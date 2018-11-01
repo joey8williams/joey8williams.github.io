@@ -68,3 +68,5 @@ particlesJS("particles-js", {
     }
   }
 });
+
+window.setTimeout(function () { window.location.refresh(); }, 30000);
