@@ -75,3 +75,17 @@ window.setTimeout(function () {
   if (window.develop) return;
   window.location.reload();
 }, 30000);
+
+document.addEventListener("DOMContentLoaded", function () {
+  for (var ornament of document.getElementsByClassName("ornament")) {
+    var margin = getRandomNumber(-30, 75);
+    ornament.style.marginTop = margin + "px";
+  }
+});
+
+function getRandomNumber(start, end) {
+  if (!start) start = 0;
+  if (!end) end = 1;
+
+  return Math.floor(Math.random() * end) + start;
+}
