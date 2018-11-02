@@ -12,3 +12,15 @@
 .green {
     background-color: lime;
 }
+
+.popp-uk {
+    background-color: #0030a1;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.uk-logo {
+    text-align: center;
+    padding-top: 20%;
+}
