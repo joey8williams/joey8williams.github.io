@@ -22,7 +22,7 @@ background-image: url("./chrimbackground.jpg");
 
 .tree-topper{
 	grid-row: 1;
-    grid-column: 7/13;
+    grid-column: 8/13;
     position: relative;
     top: 105px;
     z-index: 3;
