@@ -41,6 +41,7 @@ background-image: url("./chrimbackground.jpg");
     justify-content: space-evenly;
     align-items: center;
     z-index:2;
+
 }
 .tree-layer:after {
     content: " ";
