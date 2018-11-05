@@ -70,7 +70,7 @@
 });
 */
 
-window.develop = true;
+window.develop = false;
 window.setTimeout(function () {
   if (window.develop) return;
   window.location.reload();
