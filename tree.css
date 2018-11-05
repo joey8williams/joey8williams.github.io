@@ -9,8 +9,11 @@ background-image: url("./chrimbackground.jpg");
     display:flex;
     justify-content: center;
     align-items: center;
-    height:100%;
-    width:100%;
+    height:100vh;
+    width:62.5vh;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .tree-box{
     height:90%;
@@ -26,6 +29,7 @@ background-image: url("./chrimbackground.jpg");
     position: relative;
     top: 105px;
     z-index: 3;
+    height: 23.2vh;
 }
 
 .tree-layer{

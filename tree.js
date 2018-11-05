@@ -77,8 +77,11 @@ window.setTimeout(function () {
 }, 30000);
 
 document.addEventListener("DOMContentLoaded", function () {
+  var h = document.documentElement.clientHeight;
+  var lowerBound = -0.021 * h;
+  var upperBound = 0.052 * h;
   for (var ornament of document.getElementsByClassName("ornament")) {
-    var margin = getRandomNumber(-30, 75);
+    var margin = getRandomNumber(lowerBound, upperBound);
     ornament.style.marginTop = margin + "px";
   }
 });
