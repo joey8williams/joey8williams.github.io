@@ -84,6 +84,12 @@ document.addEventListener("DOMContentLoaded", function () {
     var margin = getRandomNumber(lowerBound, upperBound);
     ornament.style.marginTop = margin + "px";
   }
+
+  for (var ornamentImg of document.querySelectorAll(".ornament img")) {
+    var displaySize = parseInt(ornamentImg.dataset.size);
+    var actualSize = (displaySize / 1440) * h;
+    ornamentImg.width = ornamentImg.height = actualSize;
+  }
 });
 
 function getRandomNumber(start, end) {
