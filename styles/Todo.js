@@ -3,7 +3,7 @@ import theme from './theme';
 
 
 const Todo = styled.span`
-  &::after{
+  &::before{
     content: "TODO";
     font-family: ${theme.font};
     font-size: 32px;
