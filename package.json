@@ -24,5 +24,6 @@
     "styled-components": "^4.2.1"
   },
   "devDependencies": {
+    "babel-plugin-transform-define": "^1.3.1"
   }
 }
