@@ -137,7 +137,7 @@ var Header = function Header() {
     },
     __self: this
   }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/Resume",
+    href: "/Projects",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
@@ -149,12 +149,25 @@ var Header = function Header() {
       lineNumber: 29
     },
     __self: this
+  }, "Projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/Resume",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
   }, "Resume")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://github.com/joey8williams",
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 34
     },
     __self: this
   }, "Github"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -162,7 +175,7 @@ var Header = function Header() {
     target: "blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 37
     },
     __self: this
   }, "LinkedIn")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LogoLanding, {
@@ -170,7 +183,7 @@ var Header = function Header() {
     alt: "Image",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 42
     },
     __self: this
   }));
@@ -12985,7 +12998,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_Paragraph__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/Paragraph */ "./styles/Paragraph.js");
 /* harmony import */ var _styles_MainHeading__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/MainHeading */ "./styles/MainHeading.js");
 /* harmony import */ var _styles_theme__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/theme */ "./styles/theme.js");
+/* harmony import */ var _styles_Link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../styles/Link */ "./styles/Link.js");
 var _jsxFileName = "/Users/Roodey/Documents/Projects/Portfolio/web/pages/Resume.js";
+
 
 
 
@@ -13014,83 +13029,91 @@ var Resume = function Resume() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 39
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FlexView, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 40
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ResumeWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 41
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ResumeLanding, {
     src: _assets_resume_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 42
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 45
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_MainHeading__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 46
     },
     __self: this
   }, "The Over-Architected Resume"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 47
     },
     __self: this
-  }, "Every now and then, limitations can lead you down a new path. I am no expert at Word or any other application for formatting text, and previously I had tried my best to make a presentable resume only to come up short. This lead me down a path to try something new by leaning on more familiar languages: HTML, and CSS via Sass"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Every now and then, limitations can lead you down a new path. I am no expert at Word or any other application for formatting text, and previously I had tried my best to make a presentable resume only to come up short. This lead me down a path to try something new by leaning on more familiar languages: HTML, and CSS via", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Link__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    href: "https://sass-lang.com/",
+    target: "_blank",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 53
     },
     __self: this
+  }, " Sass")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
   }, "The resume is divided into 4 distinct sections: Contact, Employment, Education, and Skills. The entire page is laid with CSS grid. All sub sections are laid out with CSS grid as well, with exception to the Skills section."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 61
     },
     __self: this
   }, "The Skills section has 3 categories that are spaced via flexbox. Each category contains child nodes with are spaced by yet another display:flex. I went this route over CSS grid because it made adding skills MUCH simpler."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 67
     },
     __self: this
-  }, "By this time I had all of my sections laid out, had all of their respective CSS divided into SCSS files and imported into a main file, and had spent more time than I care to admit refactoring reused SCSS into mixins. I decided to go one step further - why not add external libraries into the mix? I leaned on ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, "By this time I had all of my sections laid out, had all of their respective CSS divided into SCSS files and imported into a main file, and had spent more time than I care to admit refactoring reused SCSS into mixins. I decided to go one step further - why not add external libraries into the mix? Big thanks to ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Link__WEBPACK_IMPORTED_MODULE_7__["default"], {
     href: "https://fontawesome.com",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 72
     },
     __self: this
-  }, "FontAwesome "), "and ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, "FontAwesome "), "and ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Link__WEBPACK_IMPORTED_MODULE_7__["default"], {
     href: "https://tachyons.io",
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 73
     },
     __self: this
-  }, "Tachyons CSS "), "to take care of all the icons and styling."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Tachyons CSS "), "for taking care of all the icons and styling."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 76
     },
     __self: this
   }, "While in hindsight I recognize I in fact did not choose the best tool for the job, it ended up being great experiment with HTML/CSS without the requirement of responsive design.. for now. It definitely wasn't the fast route, but it was a nice opportunity to take the road less traveled."))));
@@ -13211,6 +13234,8 @@ var theme = {
   black: '#403D4B',
   white: "#FDFDFE",
   primary: "rgb(23,58,122)",
+  //Fonts
+  font: "Titillium Web, sans-serif",
   //Z index levels
   l0: 0,
   l1: 1,
@@ -13222,7 +13247,7 @@ var theme = {
 
 /***/ }),
 
-/***/ 0:
+/***/ 2:
 /*!*****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FResume&absolutePagePath=%2FUsers%2FRoodey%2FDocuments%2FProjects%2FPortfolio%2Fweb%2Fpages%2FResume.js ***!
   \*****************************************************************************************************************************************************/
@@ -13245,5 +13270,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=Resume.js.map
