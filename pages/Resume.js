@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Paragraph from "../styles/Paragraph";
 import MainHeading from "../styles/MainHeading";
 import theme from '../styles/theme';
+import Link from '../styles/Link';
 
 const FlexView = styled.div`
   display:flex;
@@ -48,7 +49,8 @@ const Resume = () => (
         I am no expert at Word or any other application for formatting text,
         and previously I had tried my best to make a presentable resume
         only to come up short. This lead me down a path to try something
-        new by leaning on more familiar languages: HTML, and CSS via Sass
+        new by leaning on more familiar languages: HTML, and CSS via
+        <Link href='https://sass-lang.com/' target="_blank"> Sass</Link>
         </Paragraph>
         <Paragraph>
         The resume is divided into 4 distinct sections: Contact,
@@ -67,9 +69,9 @@ const Resume = () => (
         respective CSS divided into SCSS files and imported into a main file,
         and had spent more time than I care to admit refactoring reused SCSS into
         mixins. I decided to go one step further - why not add external libraries
-        into the mix? I leaned on <a href='https://fontawesome.com'>FontAwesome </a>
-         and <a href='https://tachyons.io' target="_blank">Tachyons CSS </a>
-        to take care of all the icons and styling.
+        into the mix? Big thanks to <Link href='https://fontawesome.com'>FontAwesome </Link>
+         and <Link href='https://tachyons.io' target="_blank">Tachyons CSS </Link>
+        for taking care of all the icons and styling.
         </Paragraph>
         <Paragraph>
         While in hindsight I recognize I in fact did not choose the best tool for

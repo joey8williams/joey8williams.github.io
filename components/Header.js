@@ -25,6 +25,9 @@ const Header = () => (
   <Wrapper>
     <Nav>
       <Link href='/index'><a>Home</a></Link>
+      <Link href='/Projects'>
+      <a>Projects</a>
+      </Link>
       <Link href='/Resume'>
       <a>Resume</a>
       </Link>

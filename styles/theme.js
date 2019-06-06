@@ -31,6 +31,9 @@ const theme = {
   white: "#FDFDFE",
   primary: "rgb(23,58,122)",
 
+  //Fonts
+  font: "Titillium Web, sans-serif",
+
   //Z index levels
   l0: 0,
   l1: 1,
