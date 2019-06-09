@@ -1,9 +1,10 @@
-{
+var env = require('./env-config');
+
+module.exports = {
   "presets": [
     "next/babel"
   ],
   "plugins": [
-    ["transform-define", "./env-config.js"],
     [
       "styled-components",
       {
@@ -11,6 +12,7 @@
         "displayName": true,
         "preprocess": false
       }
-    ]
+    ],
+    ["transform-define", env]
   ]
 }

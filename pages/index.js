@@ -29,7 +29,7 @@ const Index = () => (
   until the end of my third year. There was a required course for MATLab, and working
   in MATLab sparked my desire for development again. The following semester, I switched
   my major to Computer Science, found
-  <Link href='https://awesomeinc.org' target="_blank">Awesome Inc </Link>
+  <Link href='https://awesomeinc.org' target="_blank"> Awesome Inc </Link>
   who was willing to hire me to build static sites
   (via jekyll, WordPress, Shopify, and raw html/css/js) as well as some web apps
   (via EmberJs, ExpressJs). Working in those languages, while also learning
