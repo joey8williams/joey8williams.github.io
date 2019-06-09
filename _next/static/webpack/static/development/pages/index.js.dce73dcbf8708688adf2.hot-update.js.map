@@ -1,0 +1,1 @@
+{"version":3,"file":"static/webpack/static/development/pages/index.js.dce73dcbf8708688adf2.hot-update.js","sources":["webpack:///./styles/Link.js"],"sourcesContent":["import styled from 'styled-components';\n\n\nconst Link = styled.a`\n\n`;\n\nexport default Link;"],"mappings":";;;;;;;;;;AAAA;AAAA;AAAA;AAGA;AAAA;AAAA;AAAA;AAIA;;;;A","sourceRoot":""}
