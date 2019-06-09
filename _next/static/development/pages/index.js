@@ -13040,7 +13040,7 @@ var Index = function Index() {
       lineNumber: 32
     },
     __self: this
-  }, "Awesome Inc "), "who was willing to hire me to build static sites (via jekyll, WordPress, Shopify, and raw html/css/js) as well as some web apps (via EmberJs, ExpressJs). Working in those languages, while also learning Java, C, and SQL in school taught me that an expert level of knowledge with a language is helpful, but not nearly as much as having a solid approach to solving problems. This helped greatly in my transition to my development positions post college."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, " Awesome Inc "), "who was willing to hire me to build static sites (via jekyll, WordPress, Shopify, and raw html/css/js) as well as some web apps (via EmberJs, ExpressJs). Working in those languages, while also learning Java, C, and SQL in school taught me that an expert level of knowledge with a language is helpful, but not nearly as much as having a solid approach to solving problems. This helped greatly in my transition to my development positions post college."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41
@@ -13223,7 +13223,7 @@ var theme = {
 
 /***/ }),
 
-/***/ 0:
+/***/ 3:
 /*!**********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2FRoodey%2FDocuments%2FProjects%2FPortfolio%2Fweb%2Fpages%2Findex.js ***!
   \**********************************************************************************************************************************************/
@@ -13246,5 +13246,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[3,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
