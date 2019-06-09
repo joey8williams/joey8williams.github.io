@@ -12,7 +12,7 @@ const Index = () => (
   <Paragraph>
   Thank you for taking a moment to browse my site. If there are any questions
   I can answer for you, please don't hesitate to reach out via the "contact"
-  button on the right side of the page <Todo/>. This page is an introduction to
+  button on the right side of the page. This page is an introduction to
   who I am, if you are looking for projects or work please use the menu above to
   find my Resume or Github.
   </Paragraph>

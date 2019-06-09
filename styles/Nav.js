@@ -9,13 +9,23 @@ const Nav = styled.nav`
 
   a{
     width:100px;
-    border-right: 1px solid ${theme.white};
     text-align:center;
     line-height:${theme.headerHeight};
     display:block;
     background-color:${theme.primary};
     color: ${theme.white};
+    font-size: ${theme.f1};
+    cursor: pointer;
+    transition-property: font-size;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+
+    &:hover{
+      font-size:${theme.f0};
+
+    }
   }
+
 `;
 
 export default Nav

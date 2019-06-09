@@ -3,6 +3,7 @@ import Footer from './Footer';
 import '../styles/css/site.css';
 import styled, {ThemeProvider} from 'styled-components';
 import theme, {GlobalStyle} from '../styles/theme';
+import Contact from './Contact';
 
 
 const Wrapper = styled.div`

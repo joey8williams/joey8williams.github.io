@@ -17,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
   body{
     padding:0;
     margin:0;
-    font-size:1rem;
+    font-size:"1rem";
     line-height:2;
   }
   a{
@@ -33,6 +33,17 @@ const theme = {
 
   //Fonts
   font: "Titillium Web, sans-serif",
+
+  //Font Sizes
+  f0: '1rem',
+  f1: '1.2rem',
+  f2: '1.5rem',
+
+  //Font Weights
+  fw0: '600',
+  fw1: '800',
+  fw2: '900',
+
 
   //Z index levels
   l0: 0,

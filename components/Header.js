@@ -1,10 +1,10 @@
 import Link from 'next/link';
-import MyLink from '../styles/Link';
 import Nav from '../styles/Nav';
 import styled from 'styled-components';
 import theme from '../styles/theme';
 import Logo from '../assets/name.gif';
-//import Resume from '../assets/Resume.pdf';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 const LogoLanding = styled.img`
   height:100%;
@@ -20,22 +20,22 @@ const Wrapper = styled.div`
   display:flex;
   justify-content: space-between;
 `;
+//      <Link href='/Projects'>
+//      <a>Projects</a>
+//      </Link>
 
 const Header = () => (
   <Wrapper>
     <Nav>
       <Link href='/index'><a>Home</a></Link>
-      <Link href='/Projects'>
-      <a>Projects</a>
-      </Link>
       <Link href='/Resume'>
       <a>Resume</a>
       </Link>
       <a href='https://github.com/joey8williams' target='_blank'>
-      Github
+      <FontAwesomeIcon icon={faGithub} /> Github
       </a>
       <a href='https://www.linkedin.com/in/joey-williams-5a279187/' target='blank'>
-        LinkedIn
+        <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
       </a>
     </Nav>
 
