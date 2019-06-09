@@ -10,7 +10,7 @@
     "export": "next export",
     "start": "next start",
     "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m 'Deploy Next.js to gh-pages' && git push origin `git subtree split --prefix out master`:master --force",
-    "save": "git checkout development && git add . && git commit -m 'updates' && git push"
+    "save": "git add . && git commit -m 'updates' && git push"
   },
   "keywords": [],
   "author": "",
