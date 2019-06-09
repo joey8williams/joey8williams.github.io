@@ -2,6 +2,8 @@ const withCSS = require('@zeit/next-css');
 const withImages = require('next-images');
 const withPlugins = require('next-compose-plugins');
 
+const debug = process.env.NODE_ENV !== "production";
+
 module.exports = withPlugins([withCSS,withImages],{
   exportPathMap: function(){
     return{
@@ -10,7 +12,7 @@ module.exports = withPlugins([withCSS,withImages],{
       "/Resume": {page: "/Resume"}
     }
   },
-  assetPrefix: '',
+  assetPrefix: !debug ? '' : '',
   webpack: (config, { dev }) => {
     // Perform customizations to webpack config
     // console.log('webpack');
