@@ -24,6 +24,12 @@ export const GlobalStyle = createGlobalStyle`
 
     text-decoration: none;
   }
+
+  @media(min-width:728px){
+    .bm-burger-button{
+      display:none;
+    }
+  }
 `;
 
 const theme = {

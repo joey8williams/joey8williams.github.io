@@ -1,10 +1,9 @@
 import Header from './Header';
-import Footer from './Footer';
 import '../styles/css/site.css';
 import styled, {ThemeProvider} from 'styled-components';
 import theme, {GlobalStyle} from '../styles/theme';
-import Contact from './Contact';
 import background from '../assets/background.png';
+import MobileNav from './MobileNav';
 
 
 const Wrapper = styled.div`
@@ -16,24 +15,28 @@ const Wrapper = styled.div`
   margin:0;
   background-image: url(${background});
   z-index: 0;
-
-
-
 `;
 
 const Body = styled.div`
   grid-row:2/4;
 `;
 
+
+
 const Layout = props => (
   <ThemeProvider theme={theme}>
-  <Wrapper>
+  <div id='outer-container'>
+
   <GlobalStyle />
+
+  <MobileNav pageWrapId={"page-wrap"}/>
+  <Wrapper id='page-wrap'>
     <Header />
     <Body>
     {props.children}
     </Body>
   </Wrapper>
+  </div>
   </ThemeProvider>
 );
 

@@ -5,6 +5,7 @@ const SubHeading = styled.h2`
   position: relative;
   font-size: ${theme.f2};
   color: ${props => props.white ? theme.white : theme.primary};
+  text-align: ${props => props.center ? "center" : "left"};
   padding-top:1rem;
 
 

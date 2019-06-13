@@ -24,6 +24,12 @@ const Nav = styled.nav`
       font-size:${theme.f0};
 
     }
+    @media(max-width:728px){
+      display:none;
+
+    }
+
+
   }
 
 `;
