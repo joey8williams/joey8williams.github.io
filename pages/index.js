@@ -11,7 +11,6 @@ import name from '../assets/name.gif';
 const Wrapper = styled.div`
   width:100%;
   height:100%;
-  background: ${theme.transparent};
   display:flex;
   align-items: center;
   justify-content: center;

@@ -46,7 +46,7 @@ const Resume = () => (
       </ResumeWrapper>
 
       <TextWrapper>
-        <MainHeading primary>The Over-Architected Resume</MainHeading>
+        <MainHeading primary center>The Over-Architected Resume</MainHeading>
         <Paragraph>
         Every now and then, limitations can lead you down a new path.
         I am no expert at Word or any other application for formatting text,

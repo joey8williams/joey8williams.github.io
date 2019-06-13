@@ -22,24 +22,32 @@ const Body = styled.div`
 `;
 
 
+import React, { Component } from 'react'
 
-const Layout = props => (
-  <ThemeProvider theme={theme}>
-  <div id='outer-container'>
+export default class Layout extends Component {
+  render() {
+    return (
+      <ThemeProvider theme={theme}>
+      <div id='outer-container'>
 
-  <GlobalStyle />
+      <GlobalStyle />
 
-  <MobileNav pageWrapId={"page-wrap"}/>
-  <Wrapper id='page-wrap'>
-    <Header />
-    <Body>
-    {props.children}
-    </Body>
-  </Wrapper>
-  </div>
-  </ThemeProvider>
-);
+      <MobileNav pageWrapId={"page-wrap"}/>
+      <Wrapper id='page-wrap' onScroll={this.handleScroll}>
+        <Header />
+        <Body>
+        {this.props.children}
+        </Body>
+      </Wrapper>
+      </div>
+      </ThemeProvider>
+    )
+  }
 
-//<Footer />
+  handleScroll(e){
+    console.log('scrolling');
+    console.log(e);
+  }
 
-export default Layout;
+}
+
