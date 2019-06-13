@@ -2,8 +2,10 @@ import styled from 'styled-components';
 import theme from './theme';
 
 const MainHeading = styled.h1`
-  color: ${theme.primary};
-  margin:0;
+  color: ${props => props.primary ? theme.primary : theme.white};
+  margin: 0;
+  font-size: ${props => props.bigger ? "4rem" : "2.5rem"};
+  text-align: ${props => props.center ? "center" : "left"};
 `;
 
 export default MainHeading;

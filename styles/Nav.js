@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 import theme from './theme';
 
+
 const Nav = styled.nav`
-  background-color:${theme.white};
   height:100%;
   display:inline-flex;
 
@@ -12,7 +12,7 @@ const Nav = styled.nav`
     text-align:center;
     line-height:${theme.headerHeight};
     display:block;
-    background-color:${theme.primary};
+    background-color: inherit;
     color: ${theme.white};
     font-size: ${theme.f1};
     cursor: pointer;

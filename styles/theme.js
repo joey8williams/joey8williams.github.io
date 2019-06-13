@@ -21,6 +21,7 @@ export const GlobalStyle = createGlobalStyle`
     line-height:2;
   }
   a{
+
     text-decoration: none;
   }
 `;
@@ -29,7 +30,9 @@ const theme = {
   //Colors
   black: '#403D4B',
   white: "#FDFDFE",
-  primary: "rgb(23,58,122)",
+  //primary: "rgb(23,58,122)",
+  primary: "#004135",
+  transparent: "rgba(255,255,255,0.1)",
 
   //Fonts
   font: "Titillium Web, sans-serif",

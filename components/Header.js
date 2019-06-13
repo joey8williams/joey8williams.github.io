@@ -14,11 +14,12 @@ const LogoLanding = styled.img`
 
 const Wrapper = styled.div`
   grid-row:1;
-  background-color: ${theme.primary};
   color: ${theme.white};
-  border-bottom: 2px solid ${theme.black};
+  background: ${theme.transparent};
   display:flex;
   justify-content: space-between;
+  z-index:1;
+
 `;
 //      <Link href='/Projects'>
 //      <a>Projects</a>
@@ -28,9 +29,8 @@ const Header = () => (
   <Wrapper>
     <Nav>
       <Link href='/index'><a>Home</a></Link>
-      <Link href='/Resume'>
-      <a>Resume</a>
-      </Link>
+      <Link href='/Resume'><a>Resume</a></Link>
+      <Link href='/About'><a>About</a></Link>
       <a href='https://github.com/joey8williams' target='_blank'>
       <FontAwesomeIcon icon={faGithub} /> Github
       </a>

@@ -5,16 +5,18 @@ import Paragraph from "../styles/Paragraph";
 import MainHeading from "../styles/MainHeading";
 import theme from '../styles/theme';
 import Link from '../styles/Link';
+import Body from "../styles/Body";
 
 const FlexView = styled.div`
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
+  justify-content:center;
 `;
 
 const TextWrapper = styled.div`
   min-width:330px;
-  max-width:40%;
+  max-width:600px;
   padding-left:10px;
 `;
 
@@ -37,13 +39,14 @@ const ResumeLanding = styled.img`
 
 const Resume = () => (
   <Layout>
+    <Body>
     <FlexView>
       <ResumeWrapper>
         <ResumeLanding src={pdf} />
       </ResumeWrapper>
 
       <TextWrapper>
-        <MainHeading>The Over-Architected Resume</MainHeading>
+        <MainHeading primary>The Over-Architected Resume</MainHeading>
         <Paragraph>
         Every now and then, limitations can lead you down a new path.
         I am no expert at Word or any other application for formatting text,
@@ -81,6 +84,7 @@ const Resume = () => (
         </Paragraph>
       </TextWrapper>
     </FlexView>
+    </Body>
 
   </Layout>
 );
