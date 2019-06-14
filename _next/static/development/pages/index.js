@@ -30630,7 +30630,7 @@ __webpack_require__.r(__webpack_exports__);
 var SubHeading = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h2.withConfig({
   displayName: "SubHeading",
   componentId: "sc-1kxf1fw-0"
-})(["position:relative;font-size:", ";color:", ";text-align:", ";padding-top:1rem;&::before{content:\"\";position:absolute;left:12.5%;top:0px;width:75%;height:200px;border-top:0.3rem ", " solid;}"], _theme__WEBPACK_IMPORTED_MODULE_1__["default"].f2, function (props) {
+})(["position:relative;font-size:", ";color:", ";text-align:", ";padding-top:1rem;&::before{content:\"\";position:absolute;left:12.5%;top:0px;width:75%;height:10px;border-top:0.3rem ", " solid;}"], _theme__WEBPACK_IMPORTED_MODULE_1__["default"].f2, function (props) {
   return props.white ? _theme__WEBPACK_IMPORTED_MODULE_1__["default"].white : _theme__WEBPACK_IMPORTED_MODULE_1__["default"].primary;
 }, function (props) {
   return props.center ? "center" : "left";
