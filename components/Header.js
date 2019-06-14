@@ -18,11 +18,10 @@ const LogoLanding = styled.img`
 const Wrapper = styled.div`
   height:10vh;
   width:100%;
-  position:fixed;
+  position:static;
   top:0px;
   color: ${theme.white};
   background-color: ${theme.transparent};
-  background-image: url(${background});
   display:flex;
   justify-content: space-between;
   z-index:1;

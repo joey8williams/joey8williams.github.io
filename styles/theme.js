@@ -38,7 +38,7 @@ const theme = {
   white: "#FDFDFE",
   //primary: "rgb(23,58,122)",
   primary: "#004135",
-  transparent: "rgba(255,255,255,0.1)",
+  transparent: "rgba(255,255,255,0.0)",
 
   //Fonts
   font: "Titillium Web, sans-serif",

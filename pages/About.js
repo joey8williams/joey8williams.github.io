@@ -21,7 +21,7 @@ const About = () => (
 
   <Paragraph>
   My name is Joey Williams. I work in the field of software development with a focus
-  on front end web development. My experience programming and design began when
+  on front end web development. My experience in programming and design began when
   I was about 12, working with lua scripting as well as building static sites for fun.
   Growing up in small town Kentucky, there wasn't a ton of opportunity for learning
   how to program or design unless you had the desire to teach yourself.
@@ -29,12 +29,12 @@ const About = () => (
   my college career as a Mechanical Engineer at University of Kentucky. I left most
   of my programming behind and focused entirely on developing my skills as an engineer
   until the end of my third year. There was a required course for MATLab, and working
-  in MATLab sparked my desire for development again. The following semester, I switched
-  my major to Computer Science, found
+  in MATLab sparked my desire for development again. The following semester I switched
+  my major to Computer Science, and found
   <Link href='https://awesomeinc.org' target="_blank"> Awesome Inc </Link>
   who was willing to hire me to build static sites
   (via jekyll, WordPress, Shopify, and raw html/css/js) as well as some web apps
-  (via EmberJs, ExpressJs). Working in those languages, while also learning
+  (via EmberJs, ExpressJs). Working in those languages while also learning
   Java, C, and SQL in school taught me that an expert level of knowledge with a
   language is helpful, but not nearly as much as having a solid approach to solving
   problems. This helped greatly in my transition to my development positions post college.

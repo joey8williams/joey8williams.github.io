@@ -38,7 +38,7 @@ const Index = () => (
       <MainHeading primary={false} bigger={true} center={true}>Developer, Innovator, Team Player</MainHeading>
     </div>
     <div>
-    <SubHeading white={true} center={true}>Lets build something great together</SubHeading>
+    <SubHeading white={true} center={true}>Let's build something great together</SubHeading>
     </div>
     </Wrapper>
 

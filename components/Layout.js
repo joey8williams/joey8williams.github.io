@@ -19,6 +19,7 @@ const Wrapper = styled.div`
 
 const Body = styled.div`
   grid-row:2/4;
+  background: ${theme.transparent};
 `;
 
 

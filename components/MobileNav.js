@@ -12,15 +12,18 @@ const displayBlock = {
 }
 const styles = {
   bmBurgerButton: {
-    position: 'fixed',
-    width: '30px',
+    position: 'absolute',
+    width: '36px',
     height: '30px',
     left: '20px',
     top: '20px'
   },
 
   bmBurgerBars: {
-    background: theme.white
+    background: theme.white,
+    height:'6px',
+    width: '36px',
+
   },
   bmBurgerBarsHover: {
     background: '#a90000'

@@ -22,10 +22,13 @@ const TextWrapper = styled.div`
 
 const ResumeWrapper = styled.div`
   margin-top:20px;
-  padding-right:40px;
   display:inline-block;
   max-width:600px;
   min-width:330px;
+
+  @media(min-width:1250px){
+    padding-right:40px;
+  }
 `;
 
 const ResumeLanding = styled.img`
