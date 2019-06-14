@@ -30560,7 +30560,7 @@ var MainHeading = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h1.w
 })(["color:", ";margin:0;font-size:", ";text-align:", ";"], function (props) {
   return props.primary ? _theme__WEBPACK_IMPORTED_MODULE_1__["default"].primary : _theme__WEBPACK_IMPORTED_MODULE_1__["default"].white;
 }, function (props) {
-  return props.bigger ? "3.25rem" : "2.5rem";
+  return props.bigger ? "3rem" : "2.5rem";
 }, function (props) {
   return props.center ? "center" : "left";
 });
