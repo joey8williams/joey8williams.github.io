@@ -83,7 +83,7 @@ var LogoLanding = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].img.
 var Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withConfig({
   displayName: "Header__Wrapper",
   componentId: "sc-1s5c64r-1"
-})(["height:10vh;width:100%;position:fixed;top:0px;color:", ";background-color:", ";background-image:url(", ");display:flex;justify-content:space-between;z-index:1;"], _styles_theme__WEBPACK_IMPORTED_MODULE_8__["default"].white, _styles_theme__WEBPACK_IMPORTED_MODULE_8__["default"].transparent, _assets_background_png__WEBPACK_IMPORTED_MODULE_13___default.a); //      <Link href='/Projects'>
+})(["height:10vh;width:100%;position:static;top:0px;color:", ";background-color:", ";display:flex;justify-content:space-between;z-index:1;"], _styles_theme__WEBPACK_IMPORTED_MODULE_8__["default"].white, _styles_theme__WEBPACK_IMPORTED_MODULE_8__["default"].transparent); //      <Link href='/Projects'>
 //      <a>Projects</a>
 //      </Link>
 
@@ -105,52 +105,52 @@ function (_Component) {
         onScroll: this.handleScroll,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 37
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement(_styles_Nav__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 38
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
         href: "/index",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 39
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 39
         },
         __self: this
       }, "Home")), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
         href: "/Resume",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 40
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 40
         },
         __self: this
       }, "Resume")), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
         href: "/About",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 41
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 41
         },
         __self: this
       }, "About")), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("a", {
@@ -158,14 +158,14 @@ function (_Component) {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 42
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_10__["FontAwesomeIcon"], {
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_11__["faGithub"],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 43
         },
         __self: this
       }), " Github"), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement("a", {
@@ -173,14 +173,14 @@ function (_Component) {
         target: "blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 45
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_10__["FontAwesomeIcon"], {
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_11__["faLinkedin"],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 46
         },
         __self: this
       }), " LinkedIn")), react__WEBPACK_IMPORTED_MODULE_12___default.a.createElement(LogoLanding, {
@@ -188,7 +188,7 @@ function (_Component) {
         alt: "Image",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 49
         },
         __self: this
       }));
@@ -246,7 +246,7 @@ var Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.with
 var Body = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withConfig({
   displayName: "Layout__Body",
   componentId: "sc-1vk1l3g-1"
-})(["grid-row:2/4;"]);
+})(["grid-row:2/4;background:", ";"], _styles_theme__WEBPACK_IMPORTED_MODULE_8__["default"].transparent);
 
 
 var Layout =
@@ -267,27 +267,27 @@ function (_Component) {
         theme: _styles_theme__WEBPACK_IMPORTED_MODULE_8__["default"],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 31
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement("div", {
         id: "outer-container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 32
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement(_styles_theme__WEBPACK_IMPORTED_MODULE_8__["GlobalStyle"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 34
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement(_MobileNav__WEBPACK_IMPORTED_MODULE_10__["default"], {
         pageWrapId: "page-wrap",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 36
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement(Wrapper, {
@@ -295,19 +295,19 @@ function (_Component) {
         onScroll: this.handleScroll,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 37
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_5__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 38
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement(Body, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 39
         },
         __self: this
       }, this.props.children))));
@@ -371,14 +371,16 @@ var displayBlock = {
 };
 var styles = {
   bmBurgerButton: {
-    position: 'fixed',
-    width: '30px',
+    position: 'absolute',
+    width: '36px',
     height: '30px',
     left: '20px',
     top: '20px'
   },
   bmBurgerBars: {
-    background: _styles_theme__WEBPACK_IMPORTED_MODULE_11__["default"].white
+    background: _styles_theme__WEBPACK_IMPORTED_MODULE_11__["default"].white,
+    height: '6px',
+    width: '36px'
   },
   bmBurgerBarsHover: {
     background: '#a90000'
@@ -441,14 +443,14 @@ function (_Component) {
         styles: styles,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 70
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_Link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: "/index",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 71
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
@@ -457,14 +459,14 @@ function (_Component) {
         style: displayBlock,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 72
         },
         __self: this
       }, "Home")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_Link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: "/Resume",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 74
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
@@ -473,14 +475,14 @@ function (_Component) {
         style: displayBlock,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 75
         },
         __self: this
       }, "Resume")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_Link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: "/About",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 77
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
@@ -489,7 +491,7 @@ function (_Component) {
         style: displayBlock,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 78
         },
         __self: this
       }, "About")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
@@ -498,14 +500,14 @@ function (_Component) {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 80
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_9__["FontAwesomeIcon"], {
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_10__["faGithub"],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 81
         },
         __self: this
       }), " Github"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
@@ -513,14 +515,14 @@ function (_Component) {
         target: "blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 83
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_9__["FontAwesomeIcon"], {
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_10__["faLinkedin"],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 84
         },
         __self: this
       }), " LinkedIn"));
@@ -30453,7 +30455,7 @@ var TextWrapper = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div.
 var ResumeWrapper = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div.withConfig({
   displayName: "Resume__ResumeWrapper",
   componentId: "sc-1w5veqv-2"
-})(["margin-top:20px;padding-right:40px;display:inline-block;max-width:600px;min-width:330px;"]);
+})(["margin-top:20px;display:inline-block;max-width:600px;min-width:330px;@media(min-width:1250px){padding-right:40px;}"]);
 var ResumeLanding = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].img.withConfig({
   displayName: "Resume__ResumeLanding",
   componentId: "sc-1w5veqv-3"
@@ -30463,38 +30465,38 @@ var Resume = function Resume() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 44
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Body__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 45
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FlexView, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 46
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ResumeWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 47
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ResumeLanding, {
     src: _assets_resume_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 48
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 51
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_MainHeading__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -30502,13 +30504,13 @@ var Resume = function Resume() {
     center: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 52
     },
     __self: this
   }, "The Over-Architected Resume"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 53
     },
     __self: this
   }, "Every now and then, limitations can lead you down a new path. I am no expert at Word or any other application for formatting text, and previously I had tried my best to make a presentable resume only to come up short. This lead me down a path to try something new by leaning on more familiar languages: HTML, and CSS via", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Link__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -30516,32 +30518,32 @@ var Resume = function Resume() {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 59
     },
     __self: this
   }, " Sass")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 61
     },
     __self: this
   }, "The resume is divided into 4 distinct sections: Contact, Employment, Education, and Skills. The entire page is laid with CSS grid. All sub sections are laid out with CSS grid as well, with exception to the Skills section."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 67
     },
     __self: this
   }, "The Skills section has 3 categories that are spaced via flexbox. Each category contains child nodes with are spaced by yet another display:flex. I went this route over CSS grid because it made adding skills MUCH simpler."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 73
     },
     __self: this
   }, "By this time I had all of my sections laid out, had all of their respective CSS divided into SCSS files and imported into a main file, and had spent more time than I care to admit refactoring reused SCSS into mixins. I decided to go one step further - why not add external libraries into the mix? Big thanks to ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Link__WEBPACK_IMPORTED_MODULE_7__["default"], {
     href: "https://fontawesome.com",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 78
     },
     __self: this
   }, "FontAwesome "), "and ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Link__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -30549,13 +30551,13 @@ var Resume = function Resume() {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 79
     },
     __self: this
   }, "Tachyons CSS "), "for taking care of all the icons and styling."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 82
     },
     __self: this
   }, "While in hindsight I recognize I in fact did not choose the best tool for the job, it ended up being great experiment with HTML/CSS without the requirement of responsive design.. for now. It definitely wasn't the fast route, but it was a nice opportunity to take the road less traveled.")))));
@@ -30715,7 +30717,7 @@ var theme = {
   white: "#FDFDFE",
   //primary: "rgb(23,58,122)",
   primary: "#004135",
-  transparent: "rgba(255,255,255,0.1)",
+  transparent: "rgba(255,255,255,0.0)",
   //Fonts
   font: "Titillium Web, sans-serif",
   //Font Sizes
