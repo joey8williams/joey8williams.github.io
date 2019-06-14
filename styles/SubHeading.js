@@ -15,7 +15,7 @@ const SubHeading = styled.h2`
     left:12.5%;
     top:0px;
     width: 75%;
-    height: 200px;
+    height: 10px;
     border-top: 0.3rem ${theme.white} solid;
   }
 `;
