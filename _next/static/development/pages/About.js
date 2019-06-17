@@ -72,7 +72,7 @@ var LogoLanding = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].img.
 var Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withConfig({
   displayName: "Header__Wrapper",
   componentId: "sc-1s5c64r-1"
-})(["height:10vh;width:100%;position:static;top:0px;color:", ";background-color:", ";display:flex;justify-content:space-between;z-index:1;"], _styles_theme__WEBPACK_IMPORTED_MODULE_8__["default"].white, _styles_theme__WEBPACK_IMPORTED_MODULE_8__["default"].transparent); //      <Link href='/Projects'>
+})(["height:10vh;width:100%;position:fixed;top:0px;color:", ";background-color:", ";display:flex;justify-content:space-between;z-index:1;"], _styles_theme__WEBPACK_IMPORTED_MODULE_8__["default"].white, _styles_theme__WEBPACK_IMPORTED_MODULE_8__["default"].transparent); //      <Link href='/Projects'>
 //      <a>Projects</a>
 //      </Link>
 
@@ -360,7 +360,7 @@ var displayBlock = {
 };
 var styles = {
   bmBurgerButton: {
-    position: 'absolute',
+    position: 'fixed',
     width: '36px',
     height: '30px',
     left: '20px',
@@ -30603,7 +30603,7 @@ __webpack_require__.r(__webpack_exports__);
 var Nav = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].nav.withConfig({
   displayName: "Nav",
   componentId: "sc-149650j-0"
-})(["height:100%;display:inline-flex;a{width:100px;text-align:center;line-height:", ";display:block;background-color:inherit;color:", ";font-size:", ";cursor:pointer;transition-property:font-size;transition-duration:250ms;transition-timing-function:linear;&:hover{font-size:", ";}@media(max-width:728px){display:none;}}"], _theme__WEBPACK_IMPORTED_MODULE_1__["default"].headerHeight, _theme__WEBPACK_IMPORTED_MODULE_1__["default"].white, _theme__WEBPACK_IMPORTED_MODULE_1__["default"].f1, _theme__WEBPACK_IMPORTED_MODULE_1__["default"].f0);
+})(["height:100%;display:inline-flex;a{width:100px;text-align:center;line-height:", ";display:block;background-color:inherit;color:", ";font-size:", ";cursor:pointer;transition-property:font-size;transition-duration:250ms;transition-timing-function:linear;text-shadow:-1px -1px 0 ", ",1px -1px 0 ", ",-1px 1px 0 ", ",1px 1px 0 ", ";&:hover{font-size:", ";}@media(max-width:728px){display:none;}}"], _theme__WEBPACK_IMPORTED_MODULE_1__["default"].headerHeight, _theme__WEBPACK_IMPORTED_MODULE_1__["default"].white, _theme__WEBPACK_IMPORTED_MODULE_1__["default"].f1, _theme__WEBPACK_IMPORTED_MODULE_1__["default"].black, _theme__WEBPACK_IMPORTED_MODULE_1__["default"].black, _theme__WEBPACK_IMPORTED_MODULE_1__["default"].black, _theme__WEBPACK_IMPORTED_MODULE_1__["default"].black, _theme__WEBPACK_IMPORTED_MODULE_1__["default"].f0);
 /* harmony default export */ __webpack_exports__["default"] = (Nav);
 
 /***/ }),
