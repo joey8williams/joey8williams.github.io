@@ -1,7 +1,6 @@
 import {slide as Menu} from 'react-burger-menu';
 import React, { Component } from 'react'
 import Link from 'next/Link';
-import MyLink from '../styles/Link';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import theme from '../styles/theme';
@@ -12,7 +11,7 @@ const displayBlock = {
 }
 const styles = {
   bmBurgerButton: {
-    position: 'absolute',
+    position: 'fixed',
     width: '36px',
     height: '30px',
     left: '20px',
@@ -68,14 +67,14 @@ export default class MobileNav extends Component {
   render(props) {
     return (
       <Menu pageWrapId={'page-wrap'} outerContainerId={'outer-container'} styles={styles}>
-        <Link  href='/index' >
-        <a  id="home" className="menu-item" style={displayBlock}>Home</a>
+        <Link  href='/index'>
+        <a  id="home" className="menu-item" styles={displayBlock}>Home</a>
         </Link>
         <Link  href='/Resume'>
-        <a id='resume' className="menu-item" style={displayBlock}>Resume</a>
+        <a id='resume' className="menu-item" styles={displayBlock}>Resume</a>
         </Link>
         <Link   href='/About'>
-        <a id='about' className="menu-item" style={displayBlock}>About</a>
+        <a id='about' className="menu-item" styles={displayBlock}>About</a>
         </Link>
         <a    className="menu-item"  href='https://github.com/joey8williams' target='_blank'>
         <FontAwesomeIcon icon={faGithub} /> Github

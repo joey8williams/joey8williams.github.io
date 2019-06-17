@@ -7,6 +7,7 @@ import Link from '../styles/Link';
 import styled from 'styled-components';
 import theme from '../styles/theme';
 import name from '../assets/name.gif';
+import Header from '../components/Header';
 
 const Wrapper = styled.div`
   width:100%;
@@ -33,6 +34,7 @@ const Gif = styled.img`
  */
 const Index = () => (
   <Layout>
+    <Header noshadow/>
     <Wrapper>
     <div>
       <MainHeading primary={false} bigger={true} center={true}>Developer, Innovator, Team Player</MainHeading>

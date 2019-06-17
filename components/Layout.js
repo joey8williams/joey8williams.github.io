@@ -35,7 +35,6 @@ export default class Layout extends Component {
 
       <MobileNav pageWrapId={"page-wrap"}/>
       <Wrapper id='page-wrap' onScroll={this.handleScroll}>
-        <Header />
         <Body>
         {this.props.children}
         </Body>

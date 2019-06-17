@@ -4,10 +4,12 @@ import MainHeading from '../styles/MainHeading';
 import Article from '../styles/Article';
 import Link from '../styles/Link';
 import Body from '../styles/Body';
+import Header from '../components/Header';
 
 
 const About = () => (
   <Layout>
+  <Header />
   <Body>
   <Article>
   <MainHeading primary={true} bigger={false} center={false}>About</MainHeading>

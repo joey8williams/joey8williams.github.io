@@ -6,50 +6,52 @@ import Logo from '../assets/name.gif';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import React, { Component } from 'react'
-import background from '../assets/background.png';
 
 const LogoLanding = styled.img`
   height:auto;
-  width:10%;
-  min-width:130px;
+  width:7%;
+  min-width:85px;
+  max-height:60px;
+  padding-top:10px;
+  padding-right:10px;
 
 `;
 
+
 const Wrapper = styled.div`
+  opacity:1;
   height:10vh;
   width:100%;
-  position:static;
+  position:fixed;
   top:0px;
   color: ${theme.white};
   background-color: ${theme.transparent};
   display:flex;
   justify-content: space-between;
-  z-index:1;
+  z-index:2;
+
+  box-shadow: ${props => props.noshadow ? '' : '0px 0px 20px 1px rgba(0,0,0,0.61)'};
 
 `;
 //      <Link href='/Projects'>
 //      <a>Projects</a>
 //      </Link>
 
-export default class Header extends Component {
-  render() {
-    return (
-      <Wrapper onScroll={this.handleScroll}>
-        <Nav>
-          <Link href='/index'><a>Home</a></Link>
-          <Link href='/Resume'><a>Resume</a></Link>
-          <Link href='/About'><a>About</a></Link>
-          <a href='https://github.com/joey8williams' target='_blank'>
-          <FontAwesomeIcon icon={faGithub} /> Github
-          </a>
-          <a href='https://www.linkedin.com/in/joey-williams-5a279187/' target='blank'>
-            <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
-          </a>
-        </Nav>
-        <LogoLanding src={Logo} alt="Image"></LogoLanding>
-      </Wrapper>
-    )
-  }
+const Header    = (props) => (
+    <Wrapper noshadow={props.noshadow}>
+      <Nav>
+        <Link href='/index'><a>Home</a></Link>
+        <Link href='/Resume'><a>Resume</a></Link>
+        <Link href='/About'><a>About</a></Link>
+        <a href='https://github.com/joey8williams' target='_blank'>
+        <FontAwesomeIcon icon={faGithub} /> Github
+        </a>
+        <a href='https://www.linkedin.com/in/joey-williams-5a279187/' target='blank'>
+          <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+        </a>
+      </Nav>
+      <LogoLanding src={Logo} alt="Image"></LogoLanding>
+    </Wrapper>
+);
 
-}
-
+export default Header;

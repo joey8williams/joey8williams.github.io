@@ -6,6 +6,7 @@ import MainHeading from "../styles/MainHeading";
 import theme from '../styles/theme';
 import Link from '../styles/Link';
 import Body from "../styles/Body";
+import Header from "../components/Header";
 
 const FlexView = styled.div`
   display:flex;
@@ -42,6 +43,7 @@ const ResumeLanding = styled.img`
 
 const Resume = () => (
   <Layout>
+    <Header />
     <Body>
     <FlexView>
       <ResumeWrapper>

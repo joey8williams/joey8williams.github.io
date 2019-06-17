@@ -20,6 +20,12 @@ const Nav = styled.nav`
     transition-duration: 250ms;
     transition-timing-function: linear;
 
+    text-shadow:
+    -1px -1px 0 ${theme.black},
+		1px -1px 0 ${theme.black},
+		-1px 1px 0 ${theme.black},
+		1px 1px 0 ${theme.black};
+
     &:hover{
       font-size:${theme.f0};
 
