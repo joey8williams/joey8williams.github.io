@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/Resume.js"],{
 
 /***/ "./assets/background.png":
 /*!*******************************!*\
@@ -19,6 +19,17 @@ module.exports = "/_next/static/images/background-6e8a7f451d9f02d267508ce53e3d40
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/name-5de9dd4d15cca7c1b431398cf7345bba.gif";
+
+/***/ }),
+
+/***/ "./assets/resume.png":
+/*!***************************!*\
+  !*** ./assets/resume.png ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/resume-83d2b17a2da0133555534dc4b7ba288d.png";
 
 /***/ }),
 
@@ -12677,21 +12688,21 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2FRoodey%2FDocuments%2FProjects%2FPortfolio%2Fweb%2Fpages%2Findex.js!./":
-/*!******************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2FRoodey%2FDocuments%2FProjects%2FPortfolio%2Fweb%2Fpages%2Findex.js ***!
-  \******************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FResume&absolutePagePath=%2FUsers%2FRoodey%2FDocuments%2FProjects%2FPortfolio%2Fweb%2Fpages%2FResume.js!./":
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FResume&absolutePagePath=%2FUsers%2FRoodey%2FDocuments%2FProjects%2FPortfolio%2Fweb%2Fpages%2FResume.js ***!
+  \*************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var page = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/Resume", function() {
+      var page = __webpack_require__(/*! ./pages/Resume.js */ "./pages/Resume.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/Resume.js */ "./pages/Resume.js", function() {
+          if(!next.router.components["/Resume"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/Resume.js */ "./pages/Resume.js")
+          next.router.update("/Resume", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -30403,10 +30414,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/Resume.js":
+/*!*************************!*\
+  !*** ./pages/Resume.js ***!
+  \*************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -30415,16 +30426,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var _styles_Paragraph__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/Paragraph */ "./styles/Paragraph.js");
-/* harmony import */ var _styles_MainHeading__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/MainHeading */ "./styles/MainHeading.js");
-/* harmony import */ var _styles_SubHeading__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/SubHeading */ "./styles/SubHeading.js");
-/* harmony import */ var _styles_Article__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/Article */ "./styles/Article.js");
-/* harmony import */ var _styles_Link__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/Link */ "./styles/Link.js");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _styles_theme__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../styles/theme */ "./styles/theme.js");
-/* harmony import */ var _assets_name_gif__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/name.gif */ "./assets/name.gif");
-/* harmony import */ var _assets_name_gif__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_assets_name_gif__WEBPACK_IMPORTED_MODULE_9__);
-var _jsxFileName = "/Users/Roodey/Documents/Projects/Portfolio/web/pages/index.js";
+/* harmony import */ var _assets_resume_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/resume.png */ "./assets/resume.png");
+/* harmony import */ var _assets_resume_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_resume_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _styles_Paragraph__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/Paragraph */ "./styles/Paragraph.js");
+/* harmony import */ var _styles_MainHeading__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/MainHeading */ "./styles/MainHeading.js");
+/* harmony import */ var _styles_theme__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/theme */ "./styles/theme.js");
+/* harmony import */ var _styles_Link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../styles/Link */ "./styles/Link.js");
+/* harmony import */ var _styles_Body__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../styles/Body */ "./styles/Body.js");
+var _jsxFileName = "/Users/Roodey/Documents/Projects/Portfolio/web/pages/Resume.js";
 
 
 
@@ -30434,89 +30444,150 @@ var _jsxFileName = "/Users/Roodey/Documents/Projects/Portfolio/web/pages/index.j
 
 
 
+var FlexView = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div.withConfig({
+  displayName: "Resume__FlexView",
+  componentId: "sc-1w5veqv-0"
+})(["display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;"]);
+var TextWrapper = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div.withConfig({
+  displayName: "Resume__TextWrapper",
+  componentId: "sc-1w5veqv-1"
+})(["min-width:330px;max-width:600px;padding-left:10px;"]);
+var ResumeWrapper = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div.withConfig({
+  displayName: "Resume__ResumeWrapper",
+  componentId: "sc-1w5veqv-2"
+})(["margin-top:20px;display:inline-block;max-width:600px;min-width:330px;@media(min-width:1250px){padding-right:40px;}"]);
+var ResumeLanding = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].img.withConfig({
+  displayName: "Resume__ResumeLanding",
+  componentId: "sc-1w5veqv-3"
+})(["width:100%;height:auto;border:1px solid ", ";"], _styles_theme__WEBPACK_IMPORTED_MODULE_6__["default"].black);
 
-var Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withConfig({
-  displayName: "pages__Wrapper",
-  componentId: "nuslkc-0"
-})(["width:100%;height:100%;display:flex;align-items:center;justify-content:center;flex-direction:column;z-index:1;"]);
-var GifWrapper = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withConfig({
-  displayName: "pages__GifWrapper",
-  componentId: "nuslkc-1"
-})(["width:80%;"]);
-var Gif = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].img.withConfig({
-  displayName: "pages__Gif",
-  componentId: "nuslkc-2"
-})(["width:100%;"]);
-/**
- * This page is the attention getter. Content is reserved
- * for other pages.
- */
-
-var Index = function Index() {
+var Resume = function Resume() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 44
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Wrapper, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Body__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 45
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FlexView, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 46
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_MainHeading__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    primary: false,
-    bigger: true,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ResumeWrapper, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ResumeLanding, {
+    src: _assets_resume_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TextWrapper, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_MainHeading__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    primary: true,
     center: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 52
     },
     __self: this
-  }, "Developer, Innovator, Team Player")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "The Over-Architected Resume"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 53
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_SubHeading__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    white: true,
-    center: true,
+  }, "Every now and then, limitations can lead you down a new path. I am no expert at Word or any other application for formatting text, and previously I had tried my best to make a presentable resume only to come up short. This lead me down a path to try something new by leaning on more familiar languages: HTML, and CSS via", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Link__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    href: "https://sass-lang.com/",
+    target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 59
     },
     __self: this
-  }, "Let's build something great together"))));
+  }, " Sass")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, "The resume is divided into 4 distinct sections: Contact, Employment, Education, and Skills. The entire page is laid with CSS grid. All sub sections are laid out with CSS grid as well, with exception to the Skills section."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    },
+    __self: this
+  }, "The Skills section has 3 categories that are spaced via flexbox. Each category contains child nodes with are spaced by yet another display:flex. I went this route over CSS grid because it made adding skills MUCH simpler."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, "By this time I had all of my sections laid out, had all of their respective CSS divided into SCSS files and imported into a main file, and had spent more time than I care to admit refactoring reused SCSS into mixins. I decided to go one step further - why not add external libraries into the mix? Big thanks to ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Link__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    href: "https://fontawesome.com",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
+  }, "FontAwesome "), "and ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Link__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    href: "https://tachyons.io",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79
+    },
+    __self: this
+  }, "Tachyons CSS "), "for taking care of all the icons and styling."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82
+    },
+    __self: this
+  }, "While in hindsight I recognize I in fact did not choose the best tool for the job, it ended up being great experiment with HTML/CSS without the requirement of responsive design.. for now. It definitely wasn't the fast route, but it was a nice opportunity to take the road less traveled.")))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+/* harmony default export */ __webpack_exports__["default"] = (Resume);
 
 /***/ }),
 
-/***/ "./styles/Article.js":
-/*!***************************!*\
-  !*** ./styles/Article.js ***!
-  \***************************/
+/***/ "./styles/Body.js":
+/*!************************!*\
+  !*** ./styles/Body.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./theme */ "./styles/theme.js");
 
-var Article = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
-  displayName: "Article",
-  componentId: "sc-1f8rtlj-0"
-})(["max-width:800px;margin-right:auto;margin-left:auto;"]);
-/* harmony default export */ __webpack_exports__["default"] = (Article);
+ //For wrapping pages that need more of a standard webpage look
+//Having this in the Layout made the landing page
+//significantly more difficult.
+
+var Body = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
+  displayName: "Body",
+  componentId: "knpten-0"
+})(["border-top:2px solid ", ";background-color:", ";color:", ";box-shadow:inset 0px 0px 20px 1px rgba(0,0,0,0.61);padding:2%;height:100%;"], _theme__WEBPACK_IMPORTED_MODULE_1__["default"].black, _theme__WEBPACK_IMPORTED_MODULE_1__["default"].white, _theme__WEBPACK_IMPORTED_MODULE_1__["default"].black);
+/* harmony default export */ __webpack_exports__["default"] = (Body);
 
 /***/ }),
 
@@ -30614,31 +30685,6 @@ var Paragraph = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].p.with
 
 /***/ }),
 
-/***/ "./styles/SubHeading.js":
-/*!******************************!*\
-  !*** ./styles/SubHeading.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./theme */ "./styles/theme.js");
-
-
-var SubHeading = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h2.withConfig({
-  displayName: "SubHeading",
-  componentId: "sc-1kxf1fw-0"
-})(["position:relative;font-size:", ";color:", ";text-align:", ";padding-top:1rem;&::before{content:\"\";position:absolute;left:12.5%;top:0px;width:75%;height:10px;border-top:0.3rem ", " solid;}"], _theme__WEBPACK_IMPORTED_MODULE_1__["default"].f2, function (props) {
-  return props.white ? _theme__WEBPACK_IMPORTED_MODULE_1__["default"].white : _theme__WEBPACK_IMPORTED_MODULE_1__["default"].primary;
-}, function (props) {
-  return props.center ? "center" : "left";
-}, _theme__WEBPACK_IMPORTED_MODULE_1__["default"].white);
-/* harmony default export */ __webpack_exports__["default"] = (SubHeading);
-
-/***/ }),
-
 /***/ "./styles/theme.js":
 /*!*************************!*\
   !*** ./styles/theme.js ***!
@@ -30693,14 +30739,14 @@ var theme = {
 
 /***/ }),
 
-/***/ 0:
-/*!**********************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2FRoodey%2FDocuments%2FProjects%2FPortfolio%2Fweb%2Fpages%2Findex.js ***!
-  \**********************************************************************************************************************************************/
+/***/ 4:
+/*!*****************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2FResume&absolutePagePath=%2FUsers%2FRoodey%2FDocuments%2FProjects%2FPortfolio%2Fweb%2Fpages%2FResume.js ***!
+  \*****************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2FRoodey%2FDocuments%2FProjects%2FPortfolio%2Fweb%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2FRoodey%2FDocuments%2FProjects%2FPortfolio%2Fweb%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2FResume&absolutePagePath=%2FUsers%2FRoodey%2FDocuments%2FProjects%2FPortfolio%2Fweb%2Fpages%2FResume.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FResume&absolutePagePath=%2FUsers%2FRoodey%2FDocuments%2FProjects%2FPortfolio%2Fweb%2Fpages%2FResume.js!./");
 
 
 /***/ }),
@@ -30716,5 +30762,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=index.js.map
+},[[4,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=Resume.js.map
