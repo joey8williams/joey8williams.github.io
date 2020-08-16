@@ -30609,7 +30609,7 @@ var theme = {
 
 /***/ }),
 
-/***/ 4:
+/***/ 0:
 /*!*****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FAbout&absolutePagePath=%2Fhome%2Fbanjoe%2FDocuments%2FProjects%2Fjowi-dev.github.io%2Fpages%2FAbout.js ***!
   \*****************************************************************************************************************************************************/
@@ -30632,5 +30632,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=About.js.map

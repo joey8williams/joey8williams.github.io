@@ -9800,7 +9800,7 @@ function (_App) {
         __self: this
       }, "Joe Williams"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("link", {
         rel: "shortcut icon",
-        href: "",
+        href: "/static/favicon.ico",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 24

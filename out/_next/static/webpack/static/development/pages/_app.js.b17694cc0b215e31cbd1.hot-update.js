@@ -76,7 +76,7 @@ function (_App) {
         __self: this
       }, "Joe Williams"), react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("link", {
         rel: "shortcut icon",
-        href: "assets/",
+        href: "/static/favicon.ico",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 24
@@ -144,4 +144,4 @@ function (_App) {
 /***/ })
 
 })
-//# sourceMappingURL=_app.js.a2a19e871c0a4ccedf52.hot-update.js.map
+//# sourceMappingURL=_app.js.b17694cc0b215e31cbd1.hot-update.js.map
