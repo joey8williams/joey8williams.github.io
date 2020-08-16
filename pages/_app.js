@@ -21,7 +21,7 @@ export default class MyApp extends App {
       <Container>
         <Head>
           <title>Joe Williams</title>
-          <link rel='shortcut icon' href='' />
+          <link rel='shortcut icon' href='/static/favicon.ico' />
         </Head>
         <Component {...pageProps} />
       </Container>
