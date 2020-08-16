@@ -14,53 +14,24 @@ const About = () => (
   <Article>
   <MainHeading primary={true} bigger={false} center={false}>About</MainHeading>
   <Paragraph>
-  Thank you for taking a moment to browse my site. If there are any questions
-  I can answer for you, please don't hesitate to reach out via the "contact"
-  button, or via LinkedIn. This page is an introduction to
-  who I am, if you are looking for projects or work please use the menu above to
-  find my Resume or Github.
+  I am currently in search for a new role as a Software Engineer. I've previously worked as either a front end or full stack developer
+  in both the public and private sectors. Feel free to see some of my side projects via the github link, or my work experience via the
+  LinkedIn link.
   </Paragraph>
 
   <Paragraph>
-  My name is Joey Williams. I work in the field of software development with a focus
-  on front end web development. My experience in programming and design began when
-  I was about 12, working with lua scripting as well as building static sites for fun.
-  Growing up in small town Kentucky, there wasn't a ton of opportunity for learning
-  how to program or design unless you had the desire to teach yourself.
-  I always had viewed it as a hobby, and enjoyed math and physics more, so I began
-  my college career as a Mechanical Engineer at University of Kentucky. I left most
-  of my programming behind and focused entirely on developing my skills as an engineer
-  until the end of my third year. There was a required course for MATLab, and working
-  in MATLab sparked my desire for development again. The following semester I switched
-  my major to Computer Science, and found
-  <Link href='https://awesomeinc.org' target="_blank"> Awesome Inc </Link>
-  who was willing to hire me to build static sites
-  (via jekyll, WordPress, Shopify, and raw html/css/js) as well as some web apps
-  (via EmberJs, ExpressJs). Working in those languages while also learning
-  Java, C, and SQL in school taught me that an expert level of knowledge with a
-  language is helpful, but not nearly as much as having a solid approach to solving
-  problems. This helped greatly in my transition to my development positions post college.
+  My previous work experience has included many major front end frameworks - Ember.js, React, Angular, as well as framwork-free
+  environments. I am comfortable working in any although I have a preference toward Ember. Server side my professional experience
+  has been in Node.js (express, Sails), .NET, and my side project experience always seems to lead me back to Elixir/Phoenix. I love
+  the challenge of learning new languages or frameworks and would enjoy the opportunity to bring my previous experience to the table
+  or add a new skillset. I look forward to getting to getting to know you.
   </Paragraph>
 
   <Paragraph>
-  Upon graduating I had received an offer to work for the Kentucky Transportation Department (KYTC)
-  as a full-stack web developer, in a Microsoft stack (SqlServer, C#/.NET, JQuery, Bootstrap).
-  Being at KYTC was my first experience working
-  with large code bases that I didn't write, and having to make changes to that code
-  that didn't break the application. This quickly brought about the lesson of writing code
-  that scales. The more I could refactor and reuse code, and the more it could be
-  decoupled (within reason) the easier changes down the road became. The value of spending
-  the extra time up front desigining, reworking, and implementing these designs massively
-  cut down on the time it took to fix bugs, as well as extend the application. Since we worked
-  with JQuery, design patterns were left more or less up to developer writing the application.
-  I enjoyed the flexibility to experiment, and it helped when I moved into modern (NodeJs) front end tooling
-  and frameworks. Today I am seeking work as a React Developer, or as a Phoenix/Elixir developer, ideally both.
+  -Joe
   </Paragraph>
 
   <Paragraph>
-  Outside of work I enjoy traveling, learning about other cultures, kayaking, and music. I believe new experiences
-  are the key to growth, and exploration/experimentation is the only way to have those new experiences. If you would like
-  to know more please feel free to reach out or continue browsing the site. Thank you and enjoy!
   </Paragraph>
   </Article>
   </Body>

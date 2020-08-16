@@ -19,13 +19,6 @@ const Wrapper = styled.div`
   z-index:1;
 `;
 
-const GifWrapper = styled.div`
-  width:80%;
-`;
-const Gif = styled.img`
-  width:100%;
-`;
-
 
 
 /**
@@ -37,10 +30,10 @@ const Index = () => (
     <Header noshadow/>
     <Wrapper>
     <div>
-      <MainHeading primary={false} bigger={true} center={true}>Developer, Innovator, Team Player</MainHeading>
+      <MainHeading primary={false} bigger={true} center={true}>Joe Williams</MainHeading>
     </div>
     <div>
-    <SubHeading white={true} center={true}>Let's build something great together</SubHeading>
+      <SubHeading white={true} center={true}>Full Stack Web Developer, UI Designer, Software Enthusiast</SubHeading>
     </div>
     </Wrapper>
 

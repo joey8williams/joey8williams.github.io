@@ -20,7 +20,8 @@ export default class MyApp extends App {
     return (
       <Container>
         <Head>
-          <title>Joey</title>
+          <title>Joe Williams</title>
+          <link rel='shortcut icon' href='' />
         </Head>
         <Component {...pageProps} />
       </Container>

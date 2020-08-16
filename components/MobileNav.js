@@ -1,6 +1,6 @@
 import {slide as Menu} from 'react-burger-menu';
 import React, { Component } from 'react'
-import Link from 'next/Link';
+import Link from 'next/link';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import theme from '../styles/theme';
@@ -59,7 +59,12 @@ const styles = {
     background: 'rgba(0, 0, 0, 0.3)'
   }
 }
-
+/**
+ *
+        <Link  href='/Resume'>
+        <a id='resume' className="menu-item" styles={displayBlock}>Resume</a>
+        </Link>
+ */
 export default class MobileNav extends Component {
   showSettings(e){
     e.preventDefault();
@@ -70,13 +75,10 @@ export default class MobileNav extends Component {
         <Link  href='/index'>
         <a  id="home" className="menu-item" styles={displayBlock}>Home</a>
         </Link>
-        <Link  href='/Resume'>
-        <a id='resume' className="menu-item" styles={displayBlock}>Resume</a>
-        </Link>
         <Link   href='/About'>
         <a id='about' className="menu-item" styles={displayBlock}>About</a>
         </Link>
-        <a    className="menu-item"  href='https://github.com/joey8williams' target='_blank'>
+        <a    className="menu-item"  href='https://github.com/jowi-dev' target='_blank'>
         <FontAwesomeIcon icon={faGithub} /> Github
         </a>
         <a href='https://www.linkedin.com/in/joey-williams-5a279187/' target='blank'>

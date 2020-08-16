@@ -11,7 +11,7 @@ const Wrapper = styled.div`
   grid-template-columns: 1fr;
   grid-template-rows: 10vh auto 10vh;
   min-height:100vh;
-  width: 100vw;
+  width: 100%;
   margin:0;
   background-image: url(${background});
   z-index: 0;
