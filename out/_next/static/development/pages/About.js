@@ -42,7 +42,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @fortawesome/free-brands-svg-icons */ "./node_modules/@fortawesome/free-brands-svg-icons/index.es.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
-var _jsxFileName = "/Users/Roodey/Documents/Projects/Portfolio/web/components/Header.js";
+var _jsxFileName = "/home/banjoe/Documents/Projects/jowi-dev.github.io/components/Header.js";
 
 
 
@@ -63,6 +63,7 @@ var Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.with
 }); //      <Link href='/Projects'>
 //      <a>Projects</a>
 //      </Link>
+// <Link href='/Resume'><a>Resume</a></Link>
 
 var Header = function Header(props) {
   return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Wrapper, {
@@ -92,44 +93,31 @@ var Header = function Header(props) {
     },
     __self: this
   }, "Home")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    href: "/Resume",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, "Resume")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
     href: "/About",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 44
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 44
     },
     __self: this
   }, "About")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-    href: "https://github.com/joey8williams",
+    href: "https://github.com/jowi-dev",
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 45
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_5__["FontAwesomeIcon"], {
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_6__["faGithub"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 46
     },
     __self: this
   }), " Github"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
@@ -137,25 +125,17 @@ var Header = function Header(props) {
     target: "blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 48
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_5__["FontAwesomeIcon"], {
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_6__["faLinkedin"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 49
     },
     __self: this
-  }), " LinkedIn")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(LogoLanding, {
-    src: _assets_name_gif__WEBPACK_IMPORTED_MODULE_4___default.a,
-    alt: "Image",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
-    },
-    __self: this
-  }));
+  }), " LinkedIn")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -192,7 +172,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/Roodey/Documents/Projects/Portfolio/web/components/Layout.js";
+var _jsxFileName = "/home/banjoe/Documents/Projects/jowi-dev.github.io/components/Layout.js";
 
 
 
@@ -202,7 +182,7 @@ var _jsxFileName = "/Users/Roodey/Documents/Projects/Portfolio/web/components/La
 var Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withConfig({
   displayName: "Layout__Wrapper",
   componentId: "sc-1vk1l3g-0"
-})(["display:grid;grid-template-columns:1fr;grid-template-rows:10vh auto 10vh;min-height:100vh;width:100vw;margin:0;background-image:url(", ");z-index:0;"], _assets_background_png__WEBPACK_IMPORTED_MODULE_9___default.a);
+})(["display:grid;grid-template-columns:1fr;grid-template-rows:10vh auto 10vh;min-height:100vh;width:100%;margin:0;background-image:url(", ");z-index:0;"], _assets_background_png__WEBPACK_IMPORTED_MODULE_9___default.a);
 var Body = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withConfig({
   displayName: "Layout__Body",
   componentId: "sc-1vk1l3g-1"
@@ -300,8 +280,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_burger_menu__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_burger_menu__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/Link */ "./node_modules/next/Link.js");
-/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_Link__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
 /* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @fortawesome/free-brands-svg-icons */ "./node_modules/@fortawesome/free-brands-svg-icons/index.es.js");
 /* harmony import */ var _styles_theme__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../styles/theme */ "./styles/theme.js");
@@ -310,7 +290,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/Roodey/Documents/Projects/Portfolio/web/components/MobileNav.js";
+var _jsxFileName = "/home/banjoe/Documents/Projects/jowi-dev.github.io/components/MobileNav.js";
 
 
 
@@ -368,6 +348,13 @@ var styles = {
   bmOverlay: {
     background: 'rgba(0, 0, 0, 0.3)'
   }
+  /**
+   *
+          <Link  href='/Resume'>
+          <a id='resume' className="menu-item" styles={displayBlock}>Resume</a>
+          </Link>
+   */
+
 };
 
 var MobileNav =
@@ -395,14 +382,14 @@ function (_Component) {
         styles: styles,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 74
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_Link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: "/index",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 75
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
@@ -411,30 +398,14 @@ function (_Component) {
         styles: displayBlock,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 76
         },
         __self: this
-      }, "Home")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_Link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/Resume",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 73
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-        id: "resume",
-        className: "menu-item",
-        styles: displayBlock,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 74
-        },
-        __self: this
-      }, "Resume")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_Link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+      }, "Home")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
         href: "/About",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 78
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
@@ -443,23 +414,23 @@ function (_Component) {
         styles: displayBlock,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 79
         },
         __self: this
       }, "About")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         className: "menu-item",
-        href: "https://github.com/joey8williams",
+        href: "https://github.com/jowi-dev",
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 81
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_8__["FontAwesomeIcon"], {
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_9__["faGithub"],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 82
         },
         __self: this
       }), " Github"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
@@ -467,14 +438,14 @@ function (_Component) {
         target: "blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82
+          lineNumber: 84
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_8__["FontAwesomeIcon"], {
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_9__["faLinkedin"],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83
+          lineNumber: 85
         },
         __self: this
       }), " LinkedIn"));
@@ -12628,22 +12599,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/Link.js":
-/*!***********************************!*\
-  !*** ./node_modules/next/Link.js ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/next/dist/client/link.js")
-
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FAbout&absolutePagePath=%2FUsers%2FRoodey%2FDocuments%2FProjects%2FPortfolio%2Fweb%2Fpages%2FAbout.js!./":
-/*!***********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FAbout&absolutePagePath=%2FUsers%2FRoodey%2FDocuments%2FProjects%2FPortfolio%2Fweb%2Fpages%2FAbout.js ***!
-  \***********************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FAbout&absolutePagePath=%2Fhome%2Fbanjoe%2FDocuments%2FProjects%2Fjowi-dev.github.io%2Fpages%2FAbout.js!./":
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FAbout&absolutePagePath=%2Fhome%2Fbanjoe%2FDocuments%2FProjects%2Fjowi-dev.github.io%2Fpages%2FAbout.js ***!
+  \*************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13196,12 +13155,12 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_6dc2816e14fab51b8269 ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_1aef2d0bbc0d334d831c ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_6dc2816e14fab51b8269 */ "dll-reference dll_6dc2816e14fab51b8269"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_1aef2d0bbc0d334d831c */ "dll-reference dll_1aef2d0bbc0d334d831c"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -13869,12 +13828,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_6dc2816e14fab51b8269 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_1aef2d0bbc0d334d831c ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_6dc2816e14fab51b8269 */ "dll-reference dll_6dc2816e14fab51b8269"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_1aef2d0bbc0d334d831c */ "dll-reference dll_1aef2d0bbc0d334d831c"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -14482,12 +14441,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_6dc2816e14fab51b8269 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_1aef2d0bbc0d334d831c ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_6dc2816e14fab51b8269 */ "dll-reference dll_6dc2816e14fab51b8269"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_1aef2d0bbc0d334d831c */ "dll-reference dll_1aef2d0bbc0d334d831c"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -17485,12 +17444,12 @@ module.exports = ReactPropTypesSecret;
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_6dc2816e14fab51b8269 ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_1aef2d0bbc0d334d831c ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_6dc2816e14fab51b8269 */ "dll-reference dll_6dc2816e14fab51b8269"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_1aef2d0bbc0d334d831c */ "dll-reference dll_1aef2d0bbc0d334d831c"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -17752,12 +17711,12 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_6dc2816e14fab51b8269 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_1aef2d0bbc0d334d831c ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_6dc2816e14fab51b8269 */ "dll-reference dll_6dc2816e14fab51b8269"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_1aef2d0bbc0d334d831c */ "dll-reference dll_1aef2d0bbc0d334d831c"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -30324,12 +30283,12 @@ module.exports = {
 
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!******************************************************************************************************!*\
-  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_6dc2816e14fab51b8269 ***!
+  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_1aef2d0bbc0d334d831c ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_6dc2816e14fab51b8269 */ "dll-reference dll_6dc2816e14fab51b8269"))("./node_modules/webpack/buildin/global.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_1aef2d0bbc0d334d831c */ "dll-reference dll_1aef2d0bbc0d334d831c"))("./node_modules/webpack/buildin/global.js");
 
 /***/ }),
 
@@ -30384,7 +30343,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_Link__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/Link */ "./styles/Link.js");
 /* harmony import */ var _styles_Body__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/Body */ "./styles/Body.js");
 /* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
-var _jsxFileName = "/Users/Roodey/Documents/Projects/Portfolio/web/pages/About.js";
+var _jsxFileName = "/home/banjoe/Documents/Projects/jowi-dev.github.io/pages/About.js";
 
 
 
@@ -30434,33 +30393,25 @@ var About = function About() {
       lineNumber: 16
     },
     __self: this
-  }, "Thank you for taking a moment to browse my site. If there are any questions I can answer for you, please don't hesitate to reach out via the \"contact\" button, or via LinkedIn. This page is an introduction to who I am, if you are looking for projects or work please use the menu above to find my Resume or Github."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "I am currently in search for a new role as a Software Engineer. I've previously worked as either a front end or full stack developer in both the public and private sectors. Feel free to see some of my side projects via the github link, or my work experience via the LinkedIn link."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 22
     },
     __self: this
-  }, "My name is Joey Williams. I work in the field of software development with a focus on front end web development. My experience in programming and design began when I was about 12, working with lua scripting as well as building static sites for fun. Growing up in small town Kentucky, there wasn't a ton of opportunity for learning how to program or design unless you had the desire to teach yourself. I always had viewed it as a hobby, and enjoyed math and physics more, so I began my college career as a Mechanical Engineer at University of Kentucky. I left most of my programming behind and focused entirely on developing my skills as an engineer until the end of my third year. There was a required course for MATLab, and working in MATLab sparked my desire for development again. The following semester I switched my major to Computer Science, and found", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Link__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    href: "https://awesomeinc.org",
-    target: "_blank",
+  }, "My previous work experience has included many major front end frameworks - Ember.js, React, Angular, as well as framwork-free environments. I am comfortable working in any although I have a preference toward Ember. Server side my professional experience has been in Node.js (express, Sails), .NET, and my side project experience always seems to lead me back to Elixir/Phoenix. I love the challenge of learning new languages or frameworks and would enjoy the opportunity to bring my previous experience to the table or add a new skillset. I look forward to getting to getting to know you."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 30
     },
     __self: this
-  }, " Awesome Inc "), "who was willing to hire me to build static sites (via jekyll, WordPress, Shopify, and raw html/css/js) as well as some web apps (via EmberJs, ExpressJs). Working in those languages while also learning Java, C, and SQL in school taught me that an expert level of knowledge with a language is helpful, but not nearly as much as having a solid approach to solving problems. This helped greatly in my transition to my development positions post college."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "-Joe"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 34
     },
     __self: this
-  }, "Upon graduating I had received an offer to work for the Kentucky Transportation Department (KYTC) as a full-stack web developer, in a Microsoft stack (SqlServer, C#/.NET, JQuery, Bootstrap). Being at KYTC was my first experience working with large code bases that I didn't write, and having to make changes to that code that didn't break the application. This quickly brought about the lesson of writing code that scales. The more I could refactor and reuse code, and the more it could be decoupled (within reason) the easier changes down the road became. The value of spending the extra time up front desigining, reworking, and implementing these designs massively cut down on the time it took to fix bugs, as well as extend the application. Since we worked with JQuery, design patterns were left more or less up to developer writing the application. I enjoyed the flexibility to experiment, and it helped when I moved into modern (NodeJs) front end tooling and frameworks. Today I am seeking work as a React Developer, or as a Phoenix/Elixir developer, ideally both."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60
-    },
-    __self: this
-  }, "Outside of work I enjoy traveling, learning about other cultures, kayaking, and music. I believe new experiences are the key to growth, and exploration/experimentation is the only way to have those new experiences. If you would like to know more please feel free to reach out or continue browsing the site. Thank you and enjoy!"))));
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
@@ -30659,25 +30610,25 @@ var theme = {
 /***/ }),
 
 /***/ 4:
-/*!***************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2FAbout&absolutePagePath=%2FUsers%2FRoodey%2FDocuments%2FProjects%2FPortfolio%2Fweb%2Fpages%2FAbout.js ***!
-  \***************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2FAbout&absolutePagePath=%2Fhome%2Fbanjoe%2FDocuments%2FProjects%2Fjowi-dev.github.io%2Fpages%2FAbout.js ***!
+  \*****************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2FAbout&absolutePagePath=%2FUsers%2FRoodey%2FDocuments%2FProjects%2FPortfolio%2Fweb%2Fpages%2FAbout.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FAbout&absolutePagePath=%2FUsers%2FRoodey%2FDocuments%2FProjects%2FPortfolio%2Fweb%2Fpages%2FAbout.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2FAbout&absolutePagePath=%2Fhome%2Fbanjoe%2FDocuments%2FProjects%2Fjowi-dev.github.io%2Fpages%2FAbout.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FAbout&absolutePagePath=%2Fhome%2Fbanjoe%2FDocuments%2FProjects%2Fjowi-dev.github.io%2Fpages%2FAbout.js!./");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_6dc2816e14fab51b8269":
+/***/ "dll-reference dll_1aef2d0bbc0d334d831c":
 /*!*******************************************!*\
-  !*** external "dll_6dc2816e14fab51b8269" ***!
+  !*** external "dll_1aef2d0bbc0d334d831c" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_6dc2816e14fab51b8269;
+module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
