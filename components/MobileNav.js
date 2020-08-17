@@ -5,11 +5,15 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import theme from '../styles/theme';
 
-const displayBlock = {
-  display: 'block',
-  color: theme.white
-}
+
+
 const styles = {
+  menuItem: {
+    display:'block',
+    color:theme.white,
+    backgroundColor:'red'
+  },
+
   bmBurgerButton: {
     position: 'fixed',
     width: '36px',
@@ -61,9 +65,7 @@ const styles = {
 }
 /**
  *
-        <Link  href='/Resume'>
-        <a id='resume' className="menu-item" styles={displayBlock}>Resume</a>
-        </Link>
+        <a id='resume' href='/Resume' className="menu-item" styles={displayBlock}>Resume</a>
  */
 export default class MobileNav extends Component {
   showSettings(e){
@@ -72,12 +74,8 @@ export default class MobileNav extends Component {
   render(props) {
     return (
       <Menu pageWrapId={'page-wrap'} outerContainerId={'outer-container'} styles={styles}>
-        <Link  href='/index'>
-        <a  id="home" className="menu-item" styles={displayBlock}>Home</a>
-        </Link>
-        <Link   href='/About'>
-        <a id='about' className="menu-item" styles={displayBlock}>About</a>
-        </Link>
+        <a  id="home" href='/index' className="menuItem" >Home</a>
+        <a id='about' href='/About' className="menuItem" >About</a>
         <a    className="menu-item"  href='https://github.com/jowi-dev' target='_blank'>
         <FontAwesomeIcon icon={faGithub} /> Github
         </a>
