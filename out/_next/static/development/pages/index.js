@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/About.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
 /***/ "./assets/background.png":
 /*!*******************************!*\
@@ -297,11 +297,12 @@ var _jsxFileName = "/home/banjoe/Documents/Projects/jowi-dev.github.io/component
 
 
 
-var displayBlock = {
-  display: 'block',
-  color: _styles_theme__WEBPACK_IMPORTED_MODULE_10__["default"].white
-};
 var styles = {
+  menuItem: {
+    display: 'block',
+    color: _styles_theme__WEBPACK_IMPORTED_MODULE_10__["default"].white,
+    backgroundColor: 'red'
+  },
   bmBurgerButton: {
     position: 'fixed',
     width: '36px',
@@ -350,9 +351,7 @@ var styles = {
   }
   /**
    *
-          <Link  href='/Resume'>
-          <a id='resume' className="menu-item" styles={displayBlock}>Resume</a>
-          </Link>
+          <a id='resume' href='/Resume' className="menu-item" styles={displayBlock}>Resume</a>
    */
 
 };
@@ -382,55 +381,41 @@ function (_Component) {
         styles: styles,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/index",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 76
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         id: "home",
-        className: "menu-item",
-        styles: displayBlock,
+        href: "/index",
+        className: "menuItem",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 77
         },
         __self: this
-      }, "Home")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+      }, "Home"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+        id: "about",
         href: "/About",
+        className: "menuItem",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 78
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-        id: "about",
-        className: "menu-item",
-        styles: displayBlock,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 79
-        },
-        __self: this
-      }, "About")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+      }, "About"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         className: "menu-item",
         href: "https://github.com/jowi-dev",
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 79
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_8__["FontAwesomeIcon"], {
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_9__["faGithub"],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82
+          lineNumber: 80
         },
         __self: this
       }), " Github"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
@@ -438,14 +423,14 @@ function (_Component) {
         target: "blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 82
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_8__["FontAwesomeIcon"], {
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_9__["faLinkedin"],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85
+          lineNumber: 83
         },
         __self: this
       }), " LinkedIn"));
@@ -12599,21 +12584,21 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FAbout&absolutePagePath=%2Fhome%2Fbanjoe%2FDocuments%2FProjects%2Fjowi-dev.github.io%2Fpages%2FAbout.js!./":
-/*!*************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FAbout&absolutePagePath=%2Fhome%2Fbanjoe%2FDocuments%2FProjects%2Fjowi-dev.github.io%2Fpages%2FAbout.js ***!
-  \*************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fbanjoe%2FDocuments%2FProjects%2Fjowi-dev.github.io%2Fpages%2Findex.js!./":
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fbanjoe%2FDocuments%2FProjects%2Fjowi-dev.github.io%2Fpages%2Findex.js ***!
+  \********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/About", function() {
-      var page = __webpack_require__(/*! ./pages/About.js */ "./pages/About.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
+      var page = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
       if(true) {
-        module.hot.accept(/*! ./pages/About.js */ "./pages/About.js", function() {
-          if(!next.router.components["/About"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/About.js */ "./pages/About.js")
-          next.router.update("/About", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
+          if(!next.router.components["/"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+          next.router.update("/", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -30325,9 +30310,9 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/About.js":
+/***/ "./pages/index.js":
 /*!************************!*\
-  !*** ./pages/About.js ***!
+  !*** ./pages/index.js ***!
   \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -30339,11 +30324,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 /* harmony import */ var _styles_Paragraph__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/Paragraph */ "./styles/Paragraph.js");
 /* harmony import */ var _styles_MainHeading__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/MainHeading */ "./styles/MainHeading.js");
-/* harmony import */ var _styles_Article__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/Article */ "./styles/Article.js");
-/* harmony import */ var _styles_Link__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/Link */ "./styles/Link.js");
-/* harmony import */ var _styles_Body__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/Body */ "./styles/Body.js");
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
-var _jsxFileName = "/home/banjoe/Documents/Projects/jowi-dev.github.io/pages/About.js";
+/* harmony import */ var _styles_SubHeading__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/SubHeading */ "./styles/SubHeading.js");
+/* harmony import */ var _styles_Article__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/Article */ "./styles/Article.js");
+/* harmony import */ var _styles_Link__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/Link */ "./styles/Link.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _styles_theme__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../styles/theme */ "./styles/theme.js");
+/* harmony import */ var _assets_name_gif__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/name.gif */ "./assets/name.gif");
+/* harmony import */ var _assets_name_gif__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_assets_name_gif__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
+var _jsxFileName = "/home/banjoe/Documents/Projects/jowi-dev.github.io/pages/index.js";
 
 
 
@@ -30353,68 +30342,70 @@ var _jsxFileName = "/home/banjoe/Documents/Projects/jowi-dev.github.io/pages/Abo
 
 
 
-var About = function About() {
+
+
+var Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withConfig({
+  displayName: "pages__Wrapper",
+  componentId: "nuslkc-0"
+})(["width:100%;height:100%;display:flex;align-items:center;justify-content:center;flex-direction:column;z-index:1;"]);
+/**
+ * This page is the attention getter. Content is reserved
+ * for other pages.
+ */
+
+var Index = function Index() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 29
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Body__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Article__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_MainHeading__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    primary: true,
-    bigger: false,
-    center: false,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, "I am currently in search for a new role as a Software Engineer. I've previously worked as either a front end or full stack developer in both the public and private sectors. Feel free to see some of my side projects via the github link, or my work experience via the LinkedIn link."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, "My previous work experience has included many major front end frameworks - Ember.js, React, Angular, as well as framwork-free environments. I am comfortable working in any although I have a preference toward Ember. Server side my professional experience has been in Node.js (express, Sails), .NET, and my side project experience always seems to lead me back to Elixir/Phoenix. I love the challenge of learning new languages or frameworks and would enjoy the opportunity to bring my previous experience to the table or add a new skillset. I look forward to getting to getting to know you."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    noshadow: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
     },
     __self: this
-  }, "-Joe"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_Paragraph__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Wrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 31
     },
     __self: this
-  }))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_MainHeading__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    primary: false,
+    bigger: true,
+    center: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, "Joe Williams")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_SubHeading__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    white: true,
+    center: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, "Full Stack Web Developer, UI Designer, Software Enthusiast"))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (About);
+/* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
@@ -30434,30 +30425,6 @@ var Article = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.with
   componentId: "sc-1f8rtlj-0"
 })(["max-width:800px;margin-right:auto;margin-left:auto;"]);
 /* harmony default export */ __webpack_exports__["default"] = (Article);
-
-/***/ }),
-
-/***/ "./styles/Body.js":
-/*!************************!*\
-  !*** ./styles/Body.js ***!
-  \************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./theme */ "./styles/theme.js");
-
- //For wrapping pages that need more of a standard webpage look
-//Having this in the Layout made the landing page
-//significantly more difficult.
-
-var Body = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
-  displayName: "Body",
-  componentId: "knpten-0"
-})(["border-top:2px solid ", ";background-color:", ";color:", ";box-shadow:inset 0px 0px 20px 1px rgba(0,0,0,0.61);padding:2%;height:100%;"], _theme__WEBPACK_IMPORTED_MODULE_1__["default"].black, _theme__WEBPACK_IMPORTED_MODULE_1__["default"].white, _theme__WEBPACK_IMPORTED_MODULE_1__["default"].black);
-/* harmony default export */ __webpack_exports__["default"] = (Body);
 
 /***/ }),
 
@@ -30555,6 +30522,31 @@ var Paragraph = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].p.with
 
 /***/ }),
 
+/***/ "./styles/SubHeading.js":
+/*!******************************!*\
+  !*** ./styles/SubHeading.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./theme */ "./styles/theme.js");
+
+
+var SubHeading = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h2.withConfig({
+  displayName: "SubHeading",
+  componentId: "sc-1kxf1fw-0"
+})(["position:relative;font-size:", ";color:", ";text-align:", ";padding-top:1rem;&::before{content:\"\";position:absolute;left:12.5%;top:0px;width:75%;height:10px;border-top:0.3rem ", " solid;}"], _theme__WEBPACK_IMPORTED_MODULE_1__["default"].f2, function (props) {
+  return props.white ? _theme__WEBPACK_IMPORTED_MODULE_1__["default"].white : _theme__WEBPACK_IMPORTED_MODULE_1__["default"].primary;
+}, function (props) {
+  return props.center ? "center" : "left";
+}, _theme__WEBPACK_IMPORTED_MODULE_1__["default"].white);
+/* harmony default export */ __webpack_exports__["default"] = (SubHeading);
+
+/***/ }),
+
 /***/ "./styles/theme.js":
 /*!*************************!*\
   !*** ./styles/theme.js ***!
@@ -30610,13 +30602,13 @@ var theme = {
 /***/ }),
 
 /***/ 0:
-/*!*****************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2FAbout&absolutePagePath=%2Fhome%2Fbanjoe%2FDocuments%2FProjects%2Fjowi-dev.github.io%2Fpages%2FAbout.js ***!
-  \*****************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fbanjoe%2FDocuments%2FProjects%2Fjowi-dev.github.io%2Fpages%2Findex.js ***!
+  \************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2FAbout&absolutePagePath=%2Fhome%2Fbanjoe%2FDocuments%2FProjects%2Fjowi-dev.github.io%2Fpages%2FAbout.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FAbout&absolutePagePath=%2Fhome%2Fbanjoe%2FDocuments%2FProjects%2Fjowi-dev.github.io%2Fpages%2FAbout.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fbanjoe%2FDocuments%2FProjects%2Fjowi-dev.github.io%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fbanjoe%2FDocuments%2FProjects%2Fjowi-dev.github.io%2Fpages%2Findex.js!./");
 
 
 /***/ }),
@@ -30633,4 +30625,4 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 /***/ })
 
 },[[0,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=About.js.map
+//# sourceMappingURL=index.js.map
