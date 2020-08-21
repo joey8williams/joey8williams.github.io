@@ -64,48 +64,24 @@ var Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.with
 //      <a>Projects</a>
 //      </Link>
 // <Link href='/Resume'><a>Resume</a></Link>
+// <Link href='/index'><a>Home</a></Link>
+// <Link href='/About'><a>About</a></Link>
 
 var Header = function Header(props) {
   return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Wrapper, {
     noshadow: props.noshadow,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 43
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_styles_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    href: "/index",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, "Home")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    href: "/About",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 44
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, "About")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
     href: "https://github.com/jowi-dev",
     target: "_blank",
     __source: {
@@ -351,6 +327,8 @@ var styles = {
   }
   /**
    *
+          <a  id="home" href='/index' className="menuItem" >Home</a>
+          <a id='about' href='/About' className="menuItem" >About</a>
           <a id='resume' href='/Resume' className="menu-item" styles={displayBlock}>Resume</a>
    */
 
@@ -381,28 +359,10 @@ function (_Component) {
         styles: styles,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-        id: "home",
-        href: "/index",
-        className: "menuItem",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 77
-        },
-        __self: this
-      }, "Home"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-        id: "about",
-        href: "/About",
-        className: "menuItem",
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 78
         },
         __self: this
-      }, "About"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         className: "menu-item",
         href: "https://github.com/jowi-dev",
         target: "_blank",
