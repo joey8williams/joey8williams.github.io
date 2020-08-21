@@ -37,11 +37,11 @@ const Wrapper = styled.div`
 //      <a>Projects</a>
 //      </Link>
 // <Link href='/Resume'><a>Resume</a></Link>
+// <Link href='/index'><a>Home</a></Link>
+// <Link href='/About'><a>About</a></Link>
 const Header    = (props) => (
     <Wrapper noshadow={props.noshadow}>
       <Nav>
-        <Link href='/index'><a>Home</a></Link>
-        <Link href='/About'><a>About</a></Link>
         <a href='https://github.com/jowi-dev' target='_blank'>
         <FontAwesomeIcon icon={faGithub} /> Github
         </a>

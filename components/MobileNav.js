@@ -65,6 +65,8 @@ const styles = {
 }
 /**
  *
+        <a  id="home" href='/index' className="menuItem" >Home</a>
+        <a id='about' href='/About' className="menuItem" >About</a>
         <a id='resume' href='/Resume' className="menu-item" styles={displayBlock}>Resume</a>
  */
 export default class MobileNav extends Component {
@@ -74,8 +76,6 @@ export default class MobileNav extends Component {
   render(props) {
     return (
       <Menu pageWrapId={'page-wrap'} outerContainerId={'outer-container'} styles={styles}>
-        <a  id="home" href='/index' className="menuItem" >Home</a>
-        <a id='about' href='/About' className="menuItem" >About</a>
         <a    className="menu-item"  href='https://github.com/jowi-dev' target='_blank'>
         <FontAwesomeIcon icon={faGithub} /> Github
         </a>
