@@ -4,7 +4,10 @@ import theme from './theme';
 
 const Nav = styled.nav`
   height:100%;
+  width:100%;
   display:inline-flex;
+  justify-content: space-between;
+  padding: 0px 25px;
 
 
   a{
